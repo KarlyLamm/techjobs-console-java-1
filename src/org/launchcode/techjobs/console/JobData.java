@@ -90,6 +90,7 @@ public class JobData {
                     break;
                     //break should for-each loop stop searching for value if found in one column
                     //i.e from book: if a listing has position type “Web - Front End” and name “Front end web dev” then searching for “web” should not include the listing twice.
+                    //case in-sensitive
                 }
             }
         }
