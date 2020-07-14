@@ -80,6 +80,7 @@ public class TechJobs {
         Boolean validChoice = false;
         String[] choiceKeys = new String[choices.size()];
 
+        //choicekeys used to give us a simple way to provide an ordering to choices
         //Integer attached to give order
         Integer i = 0;
         for (String choiceKey : choices.keySet()) {
